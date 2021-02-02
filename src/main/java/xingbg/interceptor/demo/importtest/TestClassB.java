@@ -1,4 +1,4 @@
-package xingbg.interceptor.demo.annotations;
+package xingbg.interceptor.demo.importtest;
 
 public class TestClassB {
 

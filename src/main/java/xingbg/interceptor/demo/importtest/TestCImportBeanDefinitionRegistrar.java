@@ -1,10 +1,9 @@
-package xingbg.interceptor.demo.annotations.importtest;
+package xingbg.interceptor.demo.importtest;
 
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 import org.springframework.core.type.AnnotationMetadata;
-import xingbg.interceptor.demo.annotations.TestClassC;
 
 public class TestCImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
 
