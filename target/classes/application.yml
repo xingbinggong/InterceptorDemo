@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+dubbo:
+  application:
+    name: pms_test
+  protocol:
+    name: dubbo
+    # 端口使用随机端口,domos上使用 host启动模式, 当指定端口号时会导致多实例端口冲突启动失败
+    port: -1
+    # 本地有多个网卡时 需要指定 ip
+    #host:
+  registries:
+    ims:
+      group: dubbo
+      address: 10.222.50.190:2181
+      protocol: zookeeper
